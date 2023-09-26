@@ -1,7 +1,7 @@
 [Unit]
 Description=Podman mariadb-app.service
 BindsTo=mariadb.service
-After=mariadb.service phpmyadmin-app.service
+After=mariadb.service
 
 [Service]
 Environment=PODMAN_SYSTEMD_UNIT=%n
