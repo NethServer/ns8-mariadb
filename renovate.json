@@ -11,7 +11,7 @@
     },
     {
       "fileMatch": ["build-images.sh"],
-      "matchStrings": ["docker\\.io/phpmyadmin/phpmyadmin:(?<currentValue>[^\\s]+)"],
+      "matchStrings": ["docker\\.io/phpmyadmin/phpmyadmin:(?<currentValue>[-0-9\\.]+)"],
       "depNameTemplate": "phpmyadmin/phpmyadmin",
       "datasourceTemplate": "docker"
     }
