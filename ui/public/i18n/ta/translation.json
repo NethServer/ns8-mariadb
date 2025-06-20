@@ -20,7 +20,7 @@
     },
     "settings": {
         "phpmyadmin_path": "Phpmyadmin வலை பாதை",
-        "webpath_already_used_in_traefik": "This web path is already used by another application in the web proxy.",
+        "webpath_already_used_in_traefik": "இந்த வலை பாதை ஏற்கனவே வலை ப்ராக்சியில் மற்றொரு பயன்பாட்டால் பயன்படுத்தப்படுகிறது.",
         "path_pattern": "வலை பயன்பாட்டிற்கான வலை பாதை, '/phpmyadmin'",
         "title": "Settings",
         "configuring": "உள்ளமைத்தல் ...",
@@ -28,14 +28,14 @@
         "phpmyadmin_url": "Phpmyadmin வலை பயன்பாடு",
         "disabled": "Disabled",
         "mariadb_tcp_port_tips": "MySQL கிளையண்டை MySQL சேவையகத்துடன் இணைக்க இந்த துறைமுகம் தேவை: mysql -u பயனர் -h புரவலன் -p துறைமுகம் -p",
-        "instance_configuration": "{instance} configuration",
+        "instance_configuration": "{instance} உள்ளமைவு",
         "admin_login_tips": "இயல்புநிலை உள்நுழைவு: கடவுச்சொல் நிர்வாகி: நிர்வாகி, நீங்கள் அதை முதல் உள்நுழைவில் மாற்ற வேண்டும்",
         "http_to_https": "Http பெறுநர் https",
         "phpmyadmin_path_tips": "ஒரு தனித்துவமான HTTP பாதையை உள்ளிடவும், எடுத்துக்காட்டாக '/phpmyadmin'",
         "lets_encrypt": "குறியாக்கம் செய்வோம்",
         "save": "Save",
         "enabled": "Enabled",
-        "link": "Link",
+        "link": "இணைப்பு",
         "mariadb_tcp_port": "வெளிப்புற மரியாடிபி டி.சி.பி துறைமுகம்",
         "upload_limit_tips": "தரவுத்தள பதிவேற்றத்திற்கான அதிகபட்ச பதிவேற்ற அளவு 256MB ஆகும்"
     },
@@ -53,7 +53,7 @@
     },
     "common": {
         "required": "Required",
-        "eg_value": "E.g. {value}",
+        "eg_value": "எ.கா. மதிப்பு",
         "work_in_progress": "Work in progress"
     },
     "about": {
