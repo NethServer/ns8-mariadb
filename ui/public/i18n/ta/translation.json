@@ -1,71 +1,71 @@
 {
     "status": {
-        "node": "Node",
-        "created": "Created",
-        "size": "Size",
-        "name": "Name",
-        "mount": "Mount",
-        "no_volumes": "No volumes",
-        "no_images": "No images",
-        "app_volumes": "App volume | App volumes",
-        "services": "Service | Services",
-        "app_images": "App image | App images",
+        "node": "கணு",
+        "created": "உருவாக்கப்பட்டது",
+        "size": "அளவு",
+        "name": "பெயர்",
+        "mount": "மவுண்ட்",
+        "no_volumes": "தொகுதிகள் இல்லை",
+        "no_images": "படங்கள் இல்லை",
+        "app_volumes": "பயன்பாட்டு தொகுதி | பயன்பாட்டு தொகுதிகள்",
+        "services": "பணி | சேவைகள்",
+        "app_images": "பயன்பாட்டு படம் | பயன்பாட்டு படங்கள்",
         "failed_services": "{num} தோல்வியுற்ற பணி | {num} தோல்வியுற்ற சேவைகள்",
         "active_services": "{num} செயலில் பணி | {num} செயலில் உள்ள சேவைகள்",
-        "no_services": "No services",
+        "no_services": "சேவைகள் இல்லை",
         "inactive_services": "{num} செயலற்ற பணி | {num} செயலற்ற சேவைகள்",
-        "app_instance": "App instance",
-        "title": "Status",
-        "installation_node": "Installation node"
+        "app_instance": "பயன்பாட்டு நிகழ்வு",
+        "title": "நிலை",
+        "installation_node": "நிறுவல் முனை"
     },
     "settings": {
         "phpmyadmin_path": "Phpmyadmin வலை பாதை",
-        "webpath_already_used_in_traefik": "This web path is already used by another application in the web proxy.",
+        "webpath_already_used_in_traefik": "இந்த வலை பாதை ஏற்கனவே வலை ப்ராக்சியில் மற்றொரு பயன்பாட்டால் பயன்படுத்தப்படுகிறது.",
         "path_pattern": "வலை பயன்பாட்டிற்கான வலை பாதை, '/phpmyadmin'",
-        "title": "Settings",
+        "title": "அமைப்புகள்",
         "configuring": "உள்ளமைத்தல் ...",
         "upload_limit": "பதிவேற்றும் வரம்பு (எம்பி)",
         "phpmyadmin_url": "Phpmyadmin வலை பயன்பாடு",
-        "disabled": "Disabled",
+        "disabled": "முடக்கப்பட்டது",
         "mariadb_tcp_port_tips": "MySQL கிளையண்டை MySQL சேவையகத்துடன் இணைக்க இந்த துறைமுகம் தேவை: mysql -u பயனர் -h புரவலன் -p துறைமுகம் -p",
-        "instance_configuration": "{instance} configuration",
+        "instance_configuration": "{instance} உள்ளமைவு",
         "admin_login_tips": "இயல்புநிலை உள்நுழைவு: கடவுச்சொல் நிர்வாகி: நிர்வாகி, நீங்கள் அதை முதல் உள்நுழைவில் மாற்ற வேண்டும்",
         "http_to_https": "Http பெறுநர் https",
         "phpmyadmin_path_tips": "ஒரு தனித்துவமான HTTP பாதையை உள்ளிடவும், எடுத்துக்காட்டாக '/phpmyadmin'",
         "lets_encrypt": "குறியாக்கம் செய்வோம்",
-        "save": "Save",
-        "enabled": "Enabled",
-        "link": "Link",
+        "save": "சேமி",
+        "enabled": "இயக்கப்பட்டது",
+        "link": "இணைப்பு",
         "mariadb_tcp_port": "வெளிப்புற மரியாடிபி டி.சி.பி துறைமுகம்",
         "upload_limit_tips": "தரவுத்தள பதிவேற்றத்திற்கான அதிகபட்ச பதிவேற்ற அளவு 256MB ஆகும்"
     },
     "error": {
-        "403": "Operation not authorized",
-        "error": "Error",
-        "cannot_retrieve_installed_modules": "Cannot retrieve installed modules",
-        "401": "Invalid authentication",
-        "cannot_retrieve_module_info": "Cannot retrieve module info",
-        "generic_error": "Something went wrong",
-        "network_timeout": "Network timeout",
-        "404": "Resource not found",
-        "network_error": "Network error",
-        "validation_error": "Validation error"
+        "403": "செயல்பாடு அங்கீகரிக்கப்படவில்லை",
+        "error": "பிழை",
+        "cannot_retrieve_installed_modules": "நிறுவப்பட்ட தொகுதிகளை மீட்டெடுக்க முடியாது",
+        "401": "தவறான ஏற்பு",
+        "cannot_retrieve_module_info": "தொகுதி தகவலை மீட்டெடுக்க முடியாது",
+        "generic_error": "ஏதோ தவறு நடந்தது",
+        "network_timeout": "பிணைய நேரம் முடிந்தது",
+        "404": "சான்று கிடைக்கவில்லை",
+        "network_error": "பிணைய பிழை",
+        "validation_error": "சரிபார்ப்பு பிழை"
     },
     "common": {
-        "required": "Required",
-        "eg_value": "E.g. {value}",
-        "work_in_progress": "Work in progress"
+        "required": "தேவை",
+        "eg_value": "எ.கா. {value}",
+        "work_in_progress": "வேலை முன்னேற்றத்தில் உள்ளது"
     },
     "about": {
-        "title": "About"
+        "title": "பற்றி"
     },
     "action": {
-        "get-module-info": "Get module info",
-        "get-status": "Get status",
-        "configure-module": "Configure module",
-        "get-configuration": "Get configuration"
+        "get-module-info": "தொகுதி தகவலைப் பெறுங்கள்",
+        "get-status": "அந்தச்தைப் பெறுங்கள்",
+        "configure-module": "தொகுதியை உள்ளமைக்கவும்",
+        "get-configuration": "உள்ளமைவைப் பெறுங்கள்"
     },
     "task": {
-        "cannot_create_task": "Cannot create task {action}"
+        "cannot_create_task": "பணியை உருவாக்க முடியாது {action}"
     }
 }
