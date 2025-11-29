@@ -2,7 +2,7 @@
     "error": {
         "403": "Operación no autorizada",
         "cannot_retrieve_installed_modules": "No se pueden recuperar los módulos instalados",
-        "401": "Autentificación inválida",
+        "401": "Autenticación no válida",
         "cannot_retrieve_module_info": "No se puede recuperar la información del módulo",
         "generic_error": "Algo ha salido mal",
         "error": "Error",
@@ -18,7 +18,7 @@
         "lets_encrypt": "Let's Encrypt",
         "save": "Guardar",
         "enabled": "Activado",
-        "title": "Ajustes",
+        "title": "Configuración",
         "phpmyadmin_path": "Ruta web de Phpmyadmin",
         "phpmyadmin_url": "Aplicación web PhpMyAdmin",
         "webpath_already_used_in_traefik": "Esta ruta web ya la utiliza otra aplicación en el proxy web.",
@@ -35,11 +35,11 @@
     "status": {
         "no_images": "Sin imágenes",
         "no_services": "Sin servicios",
-        "no_volumes": "Sin volumenes",
+        "no_volumes": "Sin volúmenes",
         "created": "Creado",
         "size": "Tamaño",
         "name": "Nombre",
-        "app_volumes": "Volumen de la aplicación| Volumen de las aplicaciones",
+        "app_volumes": "Volumen de la aplicación | Volúmenes de las aplicaciones",
         "services": "Servicio | Servicios",
         "app_images": "Imagen de la aplicación| Imágenes de las aplicaciones",
         "failed_services": "{num} servicio fallido | {num} servicios fallidos",
@@ -56,9 +56,9 @@
     },
     "action": {
         "get-module-info": "Obtener información del módulo",
-        "get-status": "Obtener el estado",
-        "configure-module": "Configurar el módulo",
-        "get-configuration": "Obtener los ajustes"
+        "get-status": "Obtener estado",
+        "configure-module": "Configurar módulo",
+        "get-configuration": "Obtener configuración"
     },
     "task": {
         "cannot_create_task": "No se puede crear la tarea {action}"
