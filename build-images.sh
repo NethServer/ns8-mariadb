@@ -16,7 +16,7 @@ container=$(buildah from scratch)
 # Reuse existing nodebuilder-mariadb container, to speed up builds
 if ! buildah containers --format "{{.ContainerName}}" | grep -q nodebuilder-mariadb; then
     echo "Pulling NodeJS runtime..."
-    buildah from --name nodebuilder-mariadb -v "${PWD}:/usr/src/mariadb:Z" docker.io/library/node:18-slim
+    buildah from --name nodebuilder-mariadb -v "${PWD}:/usr/src/mariadb:Z" docker.io/library/node:24-slim
 fi
 
 echo "Build static UI files with node..."
