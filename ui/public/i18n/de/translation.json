@@ -27,7 +27,7 @@
     },
     "error": {
         "generic_error": "Etwas ist schief gegangen",
-        "403": "Vorgang nicht autorisiert",
+        "403": "Vorgang nicht zulässig",
         "cannot_retrieve_installed_modules": "Fehler beim Abruf installierter Module",
         "401": "Authentifizierung fehlerhaft",
         "cannot_retrieve_module_info": "Fehler beim Abruf der Modul-Info",
