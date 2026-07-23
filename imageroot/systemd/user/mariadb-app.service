@@ -5,18 +5,18 @@ After=mariadb.service phpmyadmin-app.service
 
 [Service]
 Environment=PODMAN_SYSTEMD_UNIT=%n
-EnvironmentFile=%S/state/environment
-EnvironmentFile=%S/state/secrets/passwords.secret
+EnvironmentFile=%E/state/environment
+EnvironmentFile=%E/state/secrets/passwords.secret
 Restart=always
 TimeoutStopSec=70
 ExecStartPre=/bin/rm -f %t/mariadb-app.pid %t/mariadb-app.ctr-id
 ExecStart=/usr/bin/podman run --conmon-pidfile %t/mariadb-app.pid \
     --cidfile %t/mariadb-app.ctr-id --cgroups=no-conmon \
     --pod-id-file %t/mariadb.pod-id --replace -d --name mariadb-app \
-    --env-file=%S/state/environment \
+    --env-file=%E/state/environment \
     -v mysql-data:/var/lib/mysql/:Z -v mysql-conf.d:/etc/mysql/conf.d:Z \
     -v sql:/docker-entrypoint-initdb.d:z \
-    -v %S/scripts/create_admin_of_phpmyadmin.sql:/docker-entrypoint-initdb.d/create_admin.sql:Z \
+    -v %E/scripts/create_admin_of_phpmyadmin.sql:/docker-entrypoint-initdb.d/create_admin.sql:Z \
     -e MARIADB_ROOT_PASSWORD=${MARIADB_ROOT_PASSWORD} -e MARIADB_DATABASE=phpmyadmin \
     -e MARIADB_USER=phpmyadmin -e MARIADB_PASSWORD=${MARIADB_PASSWORD} \
     -e MARIADB_AUTO_UPGRADE=1 \
