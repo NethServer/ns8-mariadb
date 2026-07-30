@@ -31,6 +31,7 @@ buildah config --entrypoint=/ \
     --label="org.nethserver.rootfull=0" \
     --label="org.nethserver.authorizations=traefik@node:routeadm" \
     --label="org.nethserver.images=docker.io/mariadb:10.11.18 docker.io/phpmyadmin/phpmyadmin:5.2.3" \
+    --label="org.nethserver.min-core=3.20.1" \
     "${container}"
 # Commit everything
 buildah commit "${container}" "${repobase}/${reponame}"
